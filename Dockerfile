@@ -13,6 +13,5 @@ RUN pip3 install -r requirements.txt
 
 ADD pushoverClient.py .
 ADD configLoader.py .
-ADD config.json .
 
 CMD ["python3", "pushoverClient.py"]

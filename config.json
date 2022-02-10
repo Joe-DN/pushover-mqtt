@@ -1,0 +1,13 @@
+{
+    "mqtt-host" : "10.0.0.66",
+    "mqtt-port" : 1883,
+	"user-api-key": "user-api-key-here",
+	"applications": [{
+		"name": "app1",
+		"api-key": "app1-key-here"
+	},
+    {
+		"name": "app2",
+		"api-key": "app2-key-here"
+	}]
+}
